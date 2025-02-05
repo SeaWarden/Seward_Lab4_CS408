@@ -7,6 +7,8 @@ header {
     width: 100%; /* Full width of the page */
 }
 
+/* Header content */
+
 .header-content {
     display: flex;
     flex-direction: row;
@@ -14,7 +16,6 @@ header {
     align-items: center;
     width: 100%;
     position: relative;
-    width: 100%;
 }
 
 .header-content h1 {
@@ -25,6 +26,8 @@ header {
 header-image {
     margin-left: auto;
 }
+
+/* Navigation menu */
 
 nav-menu {
     display: flex;
@@ -46,4 +49,61 @@ nav-menu ul {
 
 nav-menu li {
     margin: 0 12px;
+}
+
+/* Main content */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: green;
+}
+
+.welcome-section {
+    background-color: white;
+    padding: 20px;
+    background-color: greenyellow;
+}
+
+.welcome-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.photos-section {
+    background-color: white;
+    padding: 20px; 
+    background-color: greenyellow;
+}
+
+.photos-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.photos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos-grid img {
+    height: auto;
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 100%;
+    padding: 10px 0;
 }
