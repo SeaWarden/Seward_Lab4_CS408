@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.header-content h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+header-image {
+    margin-left: auto;
+}
+
+nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+
+}
