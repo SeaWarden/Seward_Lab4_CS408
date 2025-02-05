@@ -1,3 +1,6 @@
+
+/* Header */
+
 header {
     display: flex;
     flex-direction: column;
@@ -6,8 +9,6 @@ header {
     background-color: green;
     width: 100%; /* Full width of the page */
 }
-
-/* Header content */
 
 .header-content {
     display: flex;
@@ -27,7 +28,7 @@ header-image {
     margin-left: auto;
 }
 
-/* Navigation menu */
+/* Navigation Menu */
 
 nav-menu {
     display: flex;
@@ -61,6 +62,8 @@ nav-menu li {
     background-color: green;
 }
 
+/* Welcome Text */
+
 .welcome-section {
     background-color: white;
     padding: 20px;
@@ -71,6 +74,8 @@ nav-menu li {
     margin-top: 0;
     text-align: center;
 }
+
+/* Image Side Bar */
 
 .photos-section {
     background-color: white;
@@ -100,10 +105,5 @@ nav-menu li {
 /* Footer */
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: green;
-    width: 100%;
-    padding: 10px 0;
 }
