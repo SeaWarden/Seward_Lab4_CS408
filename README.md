@@ -1,29 +1,31 @@
-# web-dev-starter
+# bird-watching-website (lab4)
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This project is meant to give us hands on experience implementing CSS to an existing html structure. This all mainly serves as a brush-up from the CS 208 course.
 
 ## Getting Started
 
-To get started, clone this repository and run the following commands:
+To get started, clone this repository and navigate to the location of the repo (on Windows, this can be done by using File Explorer). Access the 'assets' folder within* and find the file 'index.html'.
 
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
+Run the html file, which should show the website on your default browser.
 
-## Development
+*It should be noted, there are technically two 'assets' folders. Choose the superficial one (not the one imbedded within _MACOSX).
 
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+If any changes are made to the files, the browser will need to be refreshed in order to see those changes.
 
-## Testing
+# References
 
-To run the tests for the project, run the following command:
+CSS Basics
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS
 
-```bash
-npm test
-```
+Wrappers
+https://css-tricks.com/best-way-implement-wrapper-css/
+
+CSS Basics
+https://www.w3schools.com/css/
+
+Grid
+https://www.w3schools.com/css/css_grid.asp
+
+Flex
+https://www.w3schools.com/css/css3_flexbox_container.asp
+
